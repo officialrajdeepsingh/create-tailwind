@@ -1,0 +1,13 @@
+{
+  "name": "create-tailwind",
+  "version": "1.0.0",
+  "description": "Create tailwind HTML boilerplate.",
+  "bin": {
+    "create-tailwind": "bin/cli.js"
+  },
+  "author": "Rajdeep singh radewala.2@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
