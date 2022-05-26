@@ -17,7 +17,7 @@ const projectName = args[0];
 if (projectName.length > 0) {
 
   // Clone the repo
-  if (shell.exec(`git clone https://github.com/officialrajdeepsingh/blogpost.git ${projectName}`).code !== 0) {
+  if (shell.exec(`git https://github.com/officialrajdeepsingh/create-tailwind-app.git ${projectName}`).code !== 0) {
     shell.echo('Error: Git commit failed');
     shell.exit(1);
   }
@@ -41,4 +41,4 @@ if (projectName.length > 0) {
 
 shell.echo(`cd ${projectName}`);
 shell.echo('npm run dev');
-shell.echo('Let start the working');
+shell.echo('Let start the working with tailwind and postcss.');
