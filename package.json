@@ -5,7 +5,7 @@
   "bin": {
     "create-tailwind": "bin/cli.js"
   },
-  "author": "Rajdeep singh radewala.2@gmail.com",
+  "author": "Rajdeep singh officialrajdeepsingh@gmail.com",
   "license": "MIT",
   "dependencies": {
     "shelljs": "^0.8.5"
