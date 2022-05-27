@@ -1,6 +1,6 @@
 {
   "name": "create-tailwind",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Create tailwind HTML boilerplate.",
   "bin": {
     "create-tailwind": "bin/cli.js"
