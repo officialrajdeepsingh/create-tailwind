@@ -28,11 +28,11 @@ if (projectName.length > 0) {
     shell.echo('Directer is not change');
     shell.exit(1);
   }
-  shell.echo('Start download working...');
+  shell.echo('Start download working ...');
 
   // Install the dependencies
-  if (shell.exec('npm install').code !== 0) {
-    shell.echo('Error: Git commit failed');
+  if (shell.exec('npm install',{silent:true }).code !== 0) {
+    shell.echo('Npm install is not failed');
     shell.exit(1);
   }
 
